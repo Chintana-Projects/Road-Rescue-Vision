@@ -1,0 +1,37 @@
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+data/
+*.zip
+
+# Training outputs
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# IDE settings
+.vscode/
+.idea/
+# Standalone ground-truth test images
+ground_truth_India_000005.jpg
+ground_truth_India_000010.jpg
