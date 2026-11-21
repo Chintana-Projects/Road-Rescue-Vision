@@ -340,3 +340,20 @@ RoadRescue Vision aims to contribute to:
 *Detect • Analyze • Report • Improve*
 
 </p>
+
+## 🎥 Citizen Portal – Project Demonstration
+
+Watch the demonstration of the Citizen Portal, including road damage reporting, image uploads, GPS location sharing, and report status tracking.
+
+
+https://github.com/user-attachments/assets/5b505e7a-d9b0-4b92-b6de-b2be53009f7e
+
+
+
+## 🎥 Staff Portal – Project Demonstration
+
+Watch the demonstration of the Staff Portal, including AI-powered road damage detection, damage classification, visual severity estimation, report management, and analytics.
+
+
+
+https://github.com/user-attachments/assets/96b4299a-228a-4ac6-8593-1662dce29cae
