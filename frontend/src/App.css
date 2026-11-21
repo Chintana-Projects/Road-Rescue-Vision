@@ -7437,3 +7437,193 @@ margin-right: auto;
     padding: 17px;
   }
 }
+/* Compact Report Timeline */
+.report-timeline {
+    padding: 14px 16px !important;
+    min-height: 170px !important;
+    height: auto !important;
+}
+
+.report-timeline .timeline {
+    margin-top: 12px !important;
+    gap: 10px !important;
+}
+
+.report-timeline .timeline-icon {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.report-timeline h3 {
+    margin-bottom: 8px !important;
+}
+
+.report-timeline p {
+    margin: 4px 0 !important;
+    font-size: 11px !important;
+}
+/* Compact Report Progress Timeline */
+.report-timeline-content {
+    padding: 12px 16px !important;
+    min-height: 0 !important;
+}
+
+.report-timeline-heading {
+    margin-bottom: 12px !important;
+}
+
+.horizontal-timeline {
+    padding: 8px 4px !important;
+    gap: 12px !important;
+}
+
+.horizontal-timeline-step {
+    min-width: 110px !important;
+}
+
+.horizontal-timeline-dot {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.horizontal-timeline-dot svg {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.horizontal-timeline-details h5 {
+    margin: 6px 0 4px !important;
+    font-size: 13px !important;
+}
+
+.horizontal-timeline-details p,
+.horizontal-timeline-details span {
+    font-size: 10px !important;
+    margin: 3px 0 !important;
+}
+
+.horizontal-timeline-details small {
+    font-size: 10px !important;
+    padding: 3px 6px !important;
+}
+
+/* FORCE COMPACT REPORT TIMELINE */
+.report-timeline-content {
+    padding: 10px 14px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin-top: 8px !important;
+}
+
+.report-timeline-heading {
+    margin: 0 0 8px !important;
+}
+
+.horizontal-timeline-scroll {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.horizontal-timeline {
+    padding: 4px 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    align-items: flex-start !important;
+}
+
+.horizontal-timeline-step {
+    min-height: 0 !important;
+}
+
+.horizontal-timeline-marker {
+    margin-bottom: 4px !important;
+}
+
+.horizontal-timeline-dot {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.horizontal-timeline-dot svg {
+    width: 13px !important;
+    height: 13px !important;
+}
+
+.horizontal-timeline-details h5 {
+    margin: 4px 0 !important;
+    font-size: 12px !important;
+}
+
+.horizontal-timeline-details p,
+.horizontal-timeline-details span {
+    margin: 2px 0 !important;
+    font-size: 9px !important;
+}
+
+.horizontal-timeline-details small {
+    margin-top: 3px !important;
+    padding: 2px 5px !important;
+    font-size: 9px !important;
+}
+/* FINAL COMPACT TIMELINE FIX */
+.report-timeline-content {
+  padding: 10px 14px !important;
+  margin-top: 6px !important;
+  height: 175px !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+.report-timeline-heading {
+  margin-bottom: 6px !important;
+}
+
+.report-timeline-heading h4 {
+  font-size: 13px !important;
+}
+
+.timeline-current-status {
+  padding: 3px 8px !important;
+  font-size: 10px !important;
+}
+
+.horizontal-timeline-scroll {
+  padding: 0 !important;
+}
+
+.horizontal-timeline-marker {
+  height: 28px !important;
+}
+
+.horizontal-timeline-dot {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.horizontal-timeline-line {
+  left: 25px !important;
+  top: 12px !important;
+}
+
+.horizontal-timeline-details {
+  padding-top: 4px !important;
+  padding-right: 5px !important;
+}
+
+.horizontal-timeline-details h5 {
+  font-size: 11px !important;
+  margin-bottom: 3px !important;
+}
+
+.horizontal-timeline-details p,
+.horizontal-timeline-details span {
+  font-size: 9px !important;
+  margin-bottom: 2px !important;
+  line-height: 1.3 !important;
+}
+
+.horizontal-timeline-details small {
+  margin-top: 3px !important;
+  padding: 2px 5px !important;
+  font-size: 8px !important;
+}

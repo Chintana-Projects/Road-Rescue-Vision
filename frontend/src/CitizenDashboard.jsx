@@ -134,7 +134,7 @@ function AnnotatedReportImage({ reportId }) {
                 onClick={() => setIsOpen(false)}
                 aria-label="Close image"
               >
-                Ã—
+               ×
               </button>
             </div>
 
@@ -249,7 +249,7 @@ function ReportTimeline({ reportId }) {
       >
         <Clock size={16} />
         {isOpen ? 'Hide Progress' : 'Track Progress'}
-        <span>{isOpen ? 'âˆ’' : '+'}</span>
+       <span>{isOpen ? '−' : '+'}</span>
       </button>
 
       {isOpen && (

@@ -2090,7 +2090,7 @@ async def generate_prediction_report(
         ],
         [
             Paragraph(
-                f"{image.width} Ã— {image.height} pixels",
+                f"{image.width}× {image.height} pixels",
                 normal_style,
             ),
             Paragraph(f"{conf:.0%}", normal_style),

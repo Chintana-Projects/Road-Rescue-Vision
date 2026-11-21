@@ -1,0 +1,4 @@
+
+image,box_number,class_id,review_status,observed_content,notes
+India_008271_jpg.rf.dd5d67addd611f4e87a9b19525e6d780.jpg,1,2,UNVERIFIABLE,Dark overlay and smooth-looking road,Bounding box directly overlaps dark rectangular overlay
+India_008271_jpg.rf.dd5d67addd611f4e87a9b19525e6d780.jpg,2,1,UNVERIFIABLE,Dark overlay and smooth-looking road,Large bounding box covers overlay and surrounding road; no visible defect

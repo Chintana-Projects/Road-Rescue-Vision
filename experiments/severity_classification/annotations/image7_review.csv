@@ -1,0 +1,4 @@
+
+image,box_number,class_id,review_status,observed_content,notes
+India_000814_jpg.rf.78a3e907cf2ea0ec319c030707708504.jpg,1,2,SUSPECTED_FALSE_POSITIVE,Smooth asphalt,No visible crack or pothole inside bounding box
+India_000814_jpg.rf.78a3e907cf2ea0ec319c030707708504.jpg,2,3,SUSPECTED_FALSE_POSITIVE,Smooth asphalt,No visible crack or pothole inside bounding box

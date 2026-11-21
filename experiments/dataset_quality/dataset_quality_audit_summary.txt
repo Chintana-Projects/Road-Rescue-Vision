@@ -1,0 +1,131 @@
+﻿ROADRESCUE VISION
+DATASET QUALITY AUDIT REPORT
+Date: 15 November 2026
+
+1. DATASET OVERVIEW
+Dataset: RDD-India v9
+Total images: 7,706
+Training images: 6,215
+Validation images: 750
+Testing images: 741
+Classes: D00, D20, D40, D44
+Total bounding boxes: 12,270
+
+2. IMAGE QUALITY
+All 7,706 images are readable.
+All images have dimensions 416 x 416.
+All images are stored in RGB mode.
+No widespread extreme brightness or low-contrast issue was detected.
+
+3. IMAGE-LABEL CONSISTENCY
+No missing image-label pairs were found.
+Empty label files: 2,623.
+Empty labels may represent valid negative images or missing annotations.
+They require further visual investigation.
+
+4. ANNOTATION STRUCTURE
+Total bounding boxes: 12,270.
+Structurally valid annotations: 12,270.
+Invalid annotations: 0.
+All labels passed the checked YOLO format and coordinate-boundary rules.
+Structural validity does not guarantee visual correctness.
+
+5. CLASS DISTRIBUTION
+D00: 2,619
+D20: 3,201
+D40: 4,974
+D44: 1,476
+
+D40 is the most frequent class.
+D44 is the least frequent class.
+
+6. BOUNDING-BOX ANALYSIS
+Bounding-box area and aspect-ratio distributions were examined.
+Some very small boxes and unusually narrow or wide boxes were found.
+These are potential review cases, not automatically incorrect annotations.
+D20 had 60.32 percent of its boxes touching an image edge.
+
+7. DUPLICATE ANALYSIS
+Exact duplicate images: 0.
+Near-duplicate candidates at pHash distance <= 5: 1.
+The candidate was visually reviewed and found to show the same location
+but a different photograph.
+
+8. NEAR-DUPLICATE ANALYSIS AT THRESHOLD 10
+Total candidate pairs: 242.
+Same-split pairs: 119.
+Cross-split pairs: 123.
+
+Cross-split breakdown:
+Validation-Test: 110.
+Training-Validation: 7.
+Training-Test: 6.
+
+All 13 candidates involving the training split were manually reviewed.
+Different locations: 7.
+Uncertain: 6.
+Confirmed same-location pairs: 0.
+
+The 110 Validation-Test candidates remain pending manual review.
+
+9. SOURCE IMAGE ID ANALYSIS
+Unique source IDs: 7,706.
+Source IDs appearing in multiple splits: 0.
+However, unique source IDs do not prove that images come from
+different physical locations or recording sessions.
+
+10. SEVERITY PILOT REVIEW
+Pilot crops reviewed: 20.
+UNVERIFIABLE: 13.
+SUSPECTED_FALSE_POSITIVE: 5.
+NEEDS_MANUAL_REVIEW: 2.
+Confirmed visual severity labels: 0.
+
+The pilot is too small to estimate the quality of the complete dataset.
+No severity labels have been assigned based only on YOLO damage classes.
+
+11. IMPORTANT LIMITATIONS
+- Visual correctness of all annotations has not been established.
+- Empty labels may contain missed annotations.
+- Six train-involved near-duplicate pairs remain uncertain.
+- Validation-Test near-duplicate candidates still need review.
+- Source location and recording-session metadata are unavailable.
+- The audit does not establish that the dataset is completely free of leakage.
+
+12. CONCLUSION
+The dataset passed the automated structural checks performed so far.
+However, visual annotation quality, possible location overlap,
+and severity-label reliability require further investigation.
+
+Original images and YOLO labels have been preserved.
+
+13. VALIDATION-TEST NEAR-DUPLICATE MANUAL REVIEW
+
+Total candidate pairs: 110
+Manually reviewed: 10
+Same location, different photographs: 8
+Different locations: 2
+Unreviewed candidates: 100
+
+One reviewed pair had already been examined during the
+earlier pHash threshold-5 review.
+
+The eight same-location findings indicate possible
+location overlap between validation and test datasets.
+They are not exact duplicate photographs.
+
+The remaining 100 candidates are unverified.
+Exhaustive manual review was stopped to prioritize
+model development.
+
+14. MODEL DEVELOPMENT DECISION
+
+The dataset audit is sufficient to proceed with experiments,
+subject to the documented limitations.
+
+The test split must not be used for model tuning.
+Further experiments and model selection should use
+the validation split.
+
+The previously completed test evaluation should be treated
+as an initial evaluation, not used repeatedly for optimization.

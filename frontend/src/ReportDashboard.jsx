@@ -396,7 +396,7 @@ const [expandedImage, setExpandedImage] = useState(false)
                 type="button"
                 onClick={() => setSelectedReport(null)}
               >
-                Ã—
+               ×
               </button>
             </div>
 
@@ -500,7 +500,7 @@ const [expandedImage, setExpandedImage] = useState(false)
         className="report-image-lightbox-close"
         onClick={() => setExpandedImage(false)}
       >
-        Ã—
+       ×
       </button>
 
       <img

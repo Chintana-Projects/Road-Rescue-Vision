@@ -1,0 +1,6 @@
+
+image,box_number,class_id,review_status,observed_content,notes
+India_002069_jpg.rf.a2aa0785c97f803cd7ef822a0c98b115.jpg,1,1,SUSPECTED_FALSE_POSITIVE,Smooth road,No visible crack or pothole
+India_002069_jpg.rf.a2aa0785c97f803cd7ef822a0c98b115.jpg,2,1,SUSPECTED_FALSE_POSITIVE,Overlay and smooth road,Bounding box overlaps dark overlay; no visible defect
+India_002069_jpg.rf.a2aa0785c97f803cd7ef822a0c98b115.jpg,3,0,SUSPECTED_FALSE_POSITIVE,Smooth road,No visible crack or pothole
+India_002069_jpg.rf.a2aa0785c97f803cd7ef822a0c98b115.jpg,4,0,SUSPECTED_FALSE_POSITIVE,Overlay and smooth road,Bounding box overlaps dark overlay; no visible defect

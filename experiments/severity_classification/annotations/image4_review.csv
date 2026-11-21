@@ -1,0 +1,6 @@
+image,box_number,class_id,review_status,observed_content,notes
+India_008263_jpg.rf.4a1f7e025459d1d0a8823518d4419617.jpg,1,2,SUSPECTED_FALSE_POSITIVE,Normal road,No visible crack or pothole
+India_008263_jpg.rf.4a1f7e025459d1d0a8823518d4419617.jpg,2,2,UNVERIFIABLE,Pixelated area,Bounding box covers a blurred/pixelated region
+India_008263_jpg.rf.4a1f7e025459d1d0a8823518d4419617.jpg,3,1,INCORRECT_LOCATION,Wall and sky,No road surface inside the annotation
+India_008263_jpg.rf.4a1f7e025459d1d0a8823518d4419617.jpg,4,1,SUSPECTED_FALSE_POSITIVE,Normal road,No visible crack or pothole
+India_008263_jpg.rf.4a1f7e025459d1d0a8823518d4419617.jpg,5,0,SUSPECTED_FALSE_POSITIVE,Normal road,No visible crack or pothole

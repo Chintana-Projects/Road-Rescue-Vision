@@ -1774,7 +1774,7 @@ function App() {
                   <div>
                     <span>IMAGE DIMENSIONS</span>
                     <strong>
-                      {selectedInspection.image_width} Ã—
+                      {selectedInspection.image_width}×
                       {selectedInspection.image_height}
                     </strong>
                   </div>

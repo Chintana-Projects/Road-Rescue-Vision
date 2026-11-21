@@ -35,3 +35,8 @@ build/
 # Standalone ground-truth test images
 ground_truth_India_000005.jpg
 ground_truth_India_000010.jpg
+# Generated severity classification images
+experiments/severity_classification/**/D00/
+experiments/severity_classification/**/D20/
+experiments/severity_classification/**/D40/
+experiments/severity_classification/**/D44/
